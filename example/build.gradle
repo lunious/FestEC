@@ -24,4 +24,5 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile project(':latte-ec')
     annotationProcessor project(':latte-compiler')
+    compile project(path: ':latte-core')
 }
